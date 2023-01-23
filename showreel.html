@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <title>Tilt - Showreel GPT</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://use.typekit.net/bsl3nnt.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body class="showreel_page">
+  <!-- <header>
+    <a href="https://www.graphitedigital.com/" target="_blank">
+    <img class="logo" src="./images/tilt-logo2.png"/>
+    </a>
+  </header> -->
+    <div class="form">
+      <!-- <h1>Showreel GPT</h1> -->
+    <div class="section">
+      <p>I want to </p>
+      <select onchange="updateVideo(this);" id="format">
+        <option disabled selected></option>
+        <option data="1">amaze</option>
+        <option data="2">change</option>
+        <option data="3">delight</option>
+        <option data="4">excite</option>
+        <option data="5">inform</option>
+        <option data="6">educate</option>
+      </select>
+  </div>
+  <div class="section">
+    <p> my </p>
+    <select id="industry">
+      <option disabled selected></option>
+      <option>colleagues</option>
+      <option>company</option>
+      <option>customers</option>
+      <option>public</option>
+      <option>investors</option>
+      <option>all of above</option>
+    </select>
+  </div> 
+  <div class="section">
+    <p> about </p>
+    <select onchange="updateBtn(this);" id="topic">
+      <option disabled selected></option>
+      <option>Products & Services</option>
+      <option>Public Relations</option>
+      <option>Company values</option>
+<option>Onboarding and induction</option>
+<option>Leadership</option>
+<option>Diversity, Equity & Inclusion</option>
+<option>Compliance</option>
+<option>Health & Safety</option>
+<option>Employee engagement</option>
+<option>Change comms</option>
+<option>New products and services</option>
+<option>Environmental, Social & Governance</option>
+<option>Corporate social responsibility</option>
+<option>Public relations</option>
+<option>Crisis comms</option>
+<option>Investor relations</option>
+<option>Media relations</option>
+<option>Everything</option>
+    </select>
+  </div>
+    <button class="button-class" onclick="myFunction()" disabled >Give it to me!</button>
+</div>
+<div class="gif_wrap">
+  <h2 class="ai_words"></h2>
+</div>
+  <video id="myVideo" onloadstart="this.volume=0.75" width="320" height="240" controls style="background:black">
+  </video>
+</body>
+</html>

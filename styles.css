@@ -1,14 +1,23 @@
 body {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
   background: black;
-  height: 100vh;
-  overflow: hidden;
+  font-family: helvetica;
+}
+
+.page {
+  display: block;
+}
+
+.page img {
+  width: 100%;
+}
+
+.showreel_page {
   background-image: url('./images/showreel_bg.jpg');
   background-repeat: no-repeat; 
 background-size: 100% 100%;
 font-family: helvetica;
+  height: 100vh;
+  overflow: hidden;
 }
 
 header {
