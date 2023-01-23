@@ -5,6 +5,9 @@ body {
   background: black;
   height: 100vh;
   overflow: hidden;
+  background-image: url('./images/showreel_bg.jpg');
+  background-repeat: no-repeat; 
+background-size: 100% 100%;
 }
 
 header {
@@ -31,7 +34,6 @@ header .logo {
   display: flex;
   flex-direction: column;
   width: 800px;
-  height: 100vh;
   margin: 0 auto;
   position: relative;
   top: 50%;
