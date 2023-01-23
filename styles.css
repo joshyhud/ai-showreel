@@ -9,17 +9,21 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   width: 100%;
   position: relative;
   padding: 30px;
-
 }
 
 header .logo {
   width: auto;
   height: 50px;
+}
+
+.logo:hover {
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .form h1 {
