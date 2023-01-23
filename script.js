@@ -34,6 +34,7 @@ function updateVideo(obj) {
 //update the button to active when last entry filled
 function updateBtn() {
   document.querySelector("button").disabled = false;
+  $(".button-class").addClass("animate__animated animate__jackInTheBox");
 }
 
 // function to update video url to source when button pressed
