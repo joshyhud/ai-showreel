@@ -8,6 +8,7 @@ body {
   background-image: url('./images/showreel_bg.jpg');
   background-repeat: no-repeat; 
 background-size: 100% 100%;
+font-family: helvetica;
 }
 
 header {
@@ -44,8 +45,6 @@ header .logo {
 .form h1 {
   font-size: 60px;
   color: #ff4c74;
-  font-family: cholla-slab, serif;
-  font-weight: 800;
 }
 
 .form .section {
@@ -55,8 +54,6 @@ header .logo {
 }
 .form p {
   color: #fff;
-  font-family: cholla-slab, serif;
-  font-weight: 800;
   font-size: 30px;
   margin-right: 10px;
 }
@@ -71,8 +68,6 @@ header .logo {
   outline: none;
   border-bottom: 1px solid #fff;
   text-transform: uppercase;
-  font-family: cholla-slab, serif;
-  font-weight: 800;
 }
 
 button:disabled {
