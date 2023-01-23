@@ -27,11 +27,6 @@ header .logo {
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 
-.form h1 {
-  font-size: 50px;
-  color: #ff4c74;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -47,6 +42,8 @@ header .logo {
 .form h1 {
   font-size: 60px;
   color: #ff4c74;
+  font-family: cholla-slab, serif;
+  font-weight: 800;
 }
 
 .form .section {
@@ -56,8 +53,8 @@ header .logo {
 }
 .form p {
   color: #fff;
-  font-family: roboto;
-  font-weight: bold;
+  font-family: cholla-slab, serif;
+  font-weight: 800;
   font-size: 30px;
   margin-right: 10px;
 }
@@ -72,6 +69,8 @@ header .logo {
   outline: none;
   border-bottom: 1px solid #fff;
   text-transform: uppercase;
+  font-family: cholla-slab, serif;
+  font-weight: 800;
 }
 
 button:disabled {
@@ -117,9 +116,12 @@ button {
   position: relative;
   top: -70px;
   margin: 0 auto;
-  font-family: cursive;
+  font-family: cholla-slab, serif;
+  font-weight: 800;
+  font-style: italic;
   text-transform: uppercase;
 }
+
 
 video {
   width: 100%;
